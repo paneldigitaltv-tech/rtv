@@ -1,0 +1,6 @@
+name = "rtv"
+main = "src/index.js"
+compatibility_date = "2025-03-30"
+
+[observability]
+enabled = true

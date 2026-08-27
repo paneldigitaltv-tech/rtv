@@ -1,0 +1,18 @@
+{
+  "name": "rtv",
+  "version": "1.0.1",
+  "description": "Universal HTTP request router for Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:prod": "wrangler deploy --env production",
+    "deploy:staging": "wrangler deploy --env staging"
+  },
+  "keywords": ["cloudflare", "worker", "router", "proxy", "http"],
+  "author": "Soumyadeep Das <soumyadeepdas765@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
